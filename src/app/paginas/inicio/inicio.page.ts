@@ -40,7 +40,7 @@ export class InicioPage implements OnInit {
       direccion:'/datetime'
     },
     {
-      icono: 'rocket',
+      icono: 'albums-outline',
       nombre: 'Botones',
       direccion:'/buttons'
     },

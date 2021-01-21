@@ -1,14 +1,14 @@
 <ion-header>
   <ion-toolbar>
 <ion-buttons slot="start">
-  <ion-back-button defaulHref="/"></ion-back-button>
+    <ion-back-button defaultHref="/"></ion-back-button>
 </ion-buttons>
-<ion-button slot="end" (click)="onClick()" >
-  <ion-icon slot="icon-only" [name]="seleccionar? 'bulb':'bulb-outline'" color="warning"></ion-icon> 
-</ion-button>
-
-
-    <ion-title>buttons</ion-title>
+<ion-title>buttons</ion-title>
+<ion-buttons slot="end" >
+    <ion-button (click)="onClick()" color="warning">
+      <ion-icon slot="icon-only" [name]="seleccionar? 'bulb':'bulb-outline'" ></ion-icon> 
+    </ion-button>  
+</ion-buttons>
   </ion-toolbar>
 </ion-header>
 
