@@ -4,12 +4,12 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
-  --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary: #9aaed0;
+  --ion-color-primary-rgb: 154,174,208;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0,0,0;
+  --ion-color-primary-shade: #8899b7;
+  --ion-color-primary-tint: #a4b6d5;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -74,6 +74,24 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+/** color de youtube**/
+--ion-color-youtube: #35373b;
+  --ion-color-youtube-rgb: 146, 148, 156;
+  --ion-color-youtube-contrast: #ffffff;
+  --ion-color-youtube-contrast-rgb: 255, 255, 255;
+  --ion-color-youtube-shade: #808289;
+  --ion-color-youtube-tint: #9d9fa6;
+
+  /**color facebook**/
+  --ion-color-facebook: #4e5664;
+  --ion-color-facebook-rgb: 56,128,255;
+  --ion-color-facebook-contrast: #ffffff;
+  --ion-color-facebook-contrast-rgb: 255,255,255;
+  --ion-color-facebook-shade: #3171e0;
+  --ion-color-facebook-tint: #4c8dff;
+
+
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -228,5 +246,14 @@
     --ion-tab-bar-background: #1f1f1f;
 
     --ion-card-background: #1e1e1e;
+  }
+
+  .ion-color-facebook {
+    --ion-color-base: var(--ion-color-facebook) !important;
+    --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+    --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-facebook-shade) !important;
+    --ion-color-tint: var(--ion-color-facebook-tint) !important;
   }
 }
