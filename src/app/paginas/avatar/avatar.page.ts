@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 interface avatar{
   icono:string;
   nombre:string;
@@ -13,7 +14,7 @@ export class AvatarPage implements OnInit {
 
   avatar:avatar[] =[
     {
-      icono:"assets/img/homero.png",
+      icono:"assets/img/homero.jfif",
       nombre:"Homero J Simpson"
     },
     {

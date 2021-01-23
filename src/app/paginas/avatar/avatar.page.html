@@ -1,15 +1,14 @@
 <ion-header>
   <ion-toolbar>
-<ion-buttons slot="start">
-  <ion-back-button defaultHref="/"> </ion-back-button>
-</ion-buttons>
-<ion-title> Avtar</ion-title>
-<ion-buttons slot="end">
-  <ion-avatar>
-    <img src="assets/img/homero.png" />
-  </ion-avatar>
-</ion-buttons>
-
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"> </ion-back-button>
+      </ion-buttons>
+      <ion-title> Avtar</ion-title>
+      <ion-buttons slot="end">
+        <ion-avatar>
+          <img src="assets/img/homero.png" />
+        </ion-avatar>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -20,6 +19,7 @@
   </ion-avatar>
   <ion-label>Bart</ion-label>
 </ion-chip>
+
 <ion-list *ngFor="let item of avatar">
   <ion-item>
     <ion-avatar slot="end">

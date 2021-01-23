@@ -4,20 +4,20 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #9aaed0;
-  --ion-color-primary-rgb: 154,174,208;
-  --ion-color-primary-contrast: #000000;
-  --ion-color-primary-contrast-rgb: 0,0,0;
-  --ion-color-primary-shade: #8899b7;
-  --ion-color-primary-tint: #a4b6d5;
+  --ion-color-primary: #566f99;
+  --ion-color-primary-rgb: 86,111,153;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255,255,255;
+  --ion-color-primary-shade: #4c6287;
+  --ion-color-primary-tint: #677da3;
 
   /** secondary **/
-  --ion-color-secondary: #3dc2ff;
-  --ion-color-secondary-rgb: 61, 194, 255;
-  --ion-color-secondary-contrast: #ffffff;
-  --ion-color-secondary-contrast-rgb: 255, 255, 255;
-  --ion-color-secondary-shade: #36abe0;
-  --ion-color-secondary-tint: #50c8ff;
+  --ion-color-secondary: #1eaaeb;
+  --ion-color-secondary-rgb: 30,170,235;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0,0,0;
+  --ion-color-secondary-shade: #1a96cf;
+  --ion-color-secondary-tint: #35b3ed;
 
   /** tertiary **/
   --ion-color-tertiary: #5260ff;
@@ -74,27 +74,29 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
 /** color de youtube**/
---ion-color-youtube: #35373b;
-  --ion-color-youtube-rgb: 146, 148, 156;
-  --ion-color-youtube-contrast: #ffffff;
-  --ion-color-youtube-contrast-rgb: 255, 255, 255;
-  --ion-color-youtube-shade: #808289;
-  --ion-color-youtube-tint: #9d9fa6;
+--ion-color-youtube: #ed0726;
+--ion-color-youtube-rgb: 237,7,38;
+--ion-color-youtube-contrast: #ffffff;
+--ion-color-youtube-contrast-rgb: 255,255,255;
+--ion-color-youtube-shade: #d10621;
+--ion-color-youtube-tint: #ef203c;
 
   /**color facebook**/
-  --ion-color-facebook: #4e5664;
-  --ion-color-facebook-rgb: 56,128,255;
+  --ion-color-facebook: #0b07f2;
+  --ion-color-facebook-rgb: 11,7,242;
   --ion-color-facebook-contrast: #ffffff;
   --ion-color-facebook-contrast-rgb: 255,255,255;
-  --ion-color-facebook-shade: #3171e0;
-  --ion-color-facebook-tint: #4c8dff;
+  --ion-color-facebook-shade: #0a06d5;
+  --ion-color-facebook-tint: #2320f3;
 
-
-
-}
-
-@media (prefers-color-scheme: dark) {
+  --ion-color-whatsapp: #2eb263;
+  --ion-color-whatsapp-rgb: 46,178,99;
+  --ion-color-whatsapp-contrast: #f7f2f2;
+  --ion-color-whatsapp-contrast-rgb: 0,0,0;
+  --ion-color-whatsappppshade: #289d57;
+  --ion-color-whatsapp-tint: #43ba73; 
   /*
    * Dark Colors
    * -------------------------------------------
@@ -248,12 +250,32 @@
     --ion-card-background: #1e1e1e;
   }
 
-  .ion-color-facebook {
-    --ion-color-base: var(--ion-color-facebook) !important;
-    --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
-    --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
-    --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
-    --ion-color-shade: var(--ion-color-facebook-shade) !important;
-    --ion-color-tint: var(--ion-color-facebook-tint) !important;
-  }
+
+}
+
+.ion-color-youtube {
+  --ion-color-base: var(--ion-color-youtube) !important;
+  --ion-color-base-rgb: var(--ion-color-youtube-rgb) !important;
+  --ion-color-contrast: var(--ion-color-youtube-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-youtube-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-youtube-shade) !important;
+  --ion-color-tint: var(--ion-color-youtube-tint) !important;
+}
+
+.ion-color-facebook {
+  --ion-color-base: var(--ion-color-facebook) !important;
+  --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+  --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-facebook-shade) !important;
+  --ion-color-tint: var(--ion-color-facebook-tint) !important;
+}
+
+.ion-color-whatsapp {
+  --ion-color-base: var(--ion-color-whatsapp) !important;
+  --ion-color-base-rgb: var(--ion-color-whatsapp-rgb) !important;
+  --ion-color-contrast: var(--ion-color-whatsapp-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-whatsapp-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-whatsapp-shade) !important;
+  --ion-color-tint: var(--ion-color-whatsapp-tint) !important;
 }
