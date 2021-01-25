@@ -54,6 +54,12 @@ export class InicioPage implements OnInit {
       nombre: 'Cards',
       direccion:'/cards'
     },
+    {
+      icono: 'layers-outline',
+      nombre: 'Slides',
+      direccion:'/slides'
+    },
+
 
   ]
 

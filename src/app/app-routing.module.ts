@@ -40,6 +40,10 @@ const routes: Routes = [
     path: 'cards',
     loadChildren: () => import('./paginas/cards/cards.module').then( m => m.CardsPageModule)
   },
+  {
+    path: 'slides',
+    loadChildren: () => import('./paginas/slides/slides.module').then( m => m.SlidesPageModule)
+  },
 ];
 
 @NgModule({
