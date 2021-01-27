@@ -59,6 +59,26 @@ export class InicioPage implements OnInit {
       nombre: 'Slides',
       direccion:'/slides'
     },
+    {
+      icono: 'layers-outline',
+      nombre: 'Check',
+      direccion:'/check'
+    },
+    {
+      icono: 'calculator-outline',
+      nombre: 'Grid',
+      direccion:'/grid'
+    },
+    {
+      icono: 'bulb-outline',
+      nombre: 'PopOver',
+      direccion:'/popover'
+    },
+    {
+      icono: 'bug-outline',
+      nombre: 'Toast',
+      direccion:'/toast'
+    },
 
 
   ]

@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InicioPageRoutingModule } from './inicio-routing.module';
+import { GridPageRoutingModule } from './grid-routing.module';
 
-import { InicioPage } from './inicio.page';
+import { GridPage } from './grid.page';
 import { ComponentesModule } from 'src/app/componentes/componentes.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentesModule } from 'src/app/componentes/componentes.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    InicioPageRoutingModule
-    
+    GridPageRoutingModule,
+    ComponentesModule
   ],
-  declarations: [InicioPage]
+  declarations: [GridPage]
 })
-export class InicioPageModule {}
+export class GridPageModule {}

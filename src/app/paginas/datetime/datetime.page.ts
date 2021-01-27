@@ -6,10 +6,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./datetime.page.scss'],
 })
 export class DatetimePage implements OnInit {
+customoptions:any;
 
-  constructor() { }
+  constructor() { 
+    this.customoptions = {
+      buttons:[{
+        text:'Guardar',
+        handler:(event)=>{
+            console.log(event)
+          }
+        },
+
+        {
+          text:'Cancelar',
+          handler:()=>{
+              console.log("click en cancelar")
+            }
+          }
+      ]
+    }
+  }
 
   ngOnInit() {
+  }
+  cambiofecha(event){
+    console.log(new Date(event.detail.value));
+
   }
 
 }

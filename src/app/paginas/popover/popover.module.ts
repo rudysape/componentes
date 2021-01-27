@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InicioPageRoutingModule } from './inicio-routing.module';
+import { PopoverPageRoutingModule } from './popover-routing.module';
 
-import { InicioPage } from './inicio.page';
+import { PopoverPage } from './popover.page';
 import { ComponentesModule } from 'src/app/componentes/componentes.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentesModule } from 'src/app/componentes/componentes.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    InicioPageRoutingModule
-    
+    PopoverPageRoutingModule,
+    ComponentesModule
   ],
-  declarations: [InicioPage]
+  declarations: [PopoverPage]
 })
-export class InicioPageModule {}
+export class PopoverPageModule {}

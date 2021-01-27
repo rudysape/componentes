@@ -1,5 +1,32 @@
 <app-header titulo = "datetime"></app-header>
 
 <ion-content>
+    <ion-list-header>
+        <ion-label>Fecha de ingreso</ion-label>
+        
+    </ion-list-header>
 
+
+    <ion-item>
+        <ion-label>Ingrese la fecha:</ion-label>
+        <ion-item>
+            <ion-label>Fecha</ion-label>
+            <ion-datetime display-format="DDD DD de MMM-YYYY"  
+                monthShortNames="Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre,Noviembre,Diciembre"
+                dayShortNames="Lunes,Martes,Miercoles,Jueves,Viernes, Sabado,Domingo"
+                (ionChange)= "cambiofecha($event)" 
+                min="2015-01-01"
+                max="2030-01-01"
+                value="2015-02-01"
+                [pickerOptions]= "customoptions"
+            ></ion-datetime>
+        </ion-item>
+
+        <ion-label>Ingrese la hora:</ion-label>
+        <ion-item>
+            <ion-label>Fecha</ion-label>
+            <ion-datetime display-format="HH:mm"></ion-datetime>
+        </ion-item>
+
+    </ion-item>
 </ion-content>
