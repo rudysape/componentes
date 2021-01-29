@@ -79,6 +79,18 @@ export class InicioPage implements OnInit {
       nombre: 'Toast',
       direccion:'/toast'
     },
+    {
+      icono: 'chatbox-ellipses-outline',
+      nombre: 'Input',
+      direccion:'/input'
+    },
+
+    {
+      icono: 'infinite-outline',
+      nombre: 'Infinite Scroll',
+      direccion:'/scroll'
+    },
+
 
 
   ]

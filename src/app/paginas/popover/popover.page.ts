@@ -17,7 +17,7 @@ export class PopoverPage implements OnInit {
   async presentPopover() {
     const popover = await this.popoverController.create({
       component: ComponentepopComponent,
-      cssClass: 'my-custom-class',
+      //cssClass: 'my-custom-class',
       //event: ev,
       translucent: true
     });
