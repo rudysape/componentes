@@ -72,6 +72,26 @@ const routes: Routes = [
     path: 'scroll',
     loadChildren: () => import('./paginas/scroll/scroll.module').then( m => m.ScrollPageModule)
   },
+  {
+    path: 'listas',
+    loadChildren: () => import('./paginas/listas/listas.module').then( m => m.ListasPageModule)
+  },
+  {
+    path: 'list-reorder',
+    loadChildren: () => import('./paginas/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./paginas/modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'pover',
+    loadChildren: () => import('./paginas/pover/pover.module').then( m => m.PoverPageModule)
+  },
+  /* {
+    path: 'modalinfo',
+    loadChildren: () => import('./paginas/modalinfo/modalinfo.module').then( m => m.ModalinfoPageModule)
+  }, */
 ];
 
 @NgModule({
